@@ -3,39 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-/* okey esto de aqui van a ser los css de la parte de arriba de l apagina principal, son muy raros por lo que no es posible simpleficarlos de manera simple*/
-.contacto{
-    display:flex;
-    justify-content: flex-end;
-}
-.Relleno{
-    width: auto;
-}
-.imagen_contacto{
-    width: 20px;
-    height: auto;
-
-}
-.Text{
-    display: flex;
-    color: rgb(255, 255, 255);
-    padding: 1%;
-    width: auto;
-    text-decoration: none;
-}
-.verde{
-    background-color: rgb(1, 140, 145);
-}
-.verde:hover{
-    background-color: rgb(32, 199, 163);
-}
-.rojo{
-    background-color: rgb(192, 0, 0);
-}
-.rojo:hover{
-    background-color: rgb(255, 0, 0);
-}
-/* okey hasta aqui van esos css, arriba la deuda tecnica*/
 header{
     margin: 0px;
 }
@@ -43,14 +10,36 @@ header{
 .logo{
     width: 200px;
     height: auto;
-
-
 }
 .menu_obciones{
     display: flex;
     width: auto;
     justify-content: center;
     align-items: center;
+    list-style: none;
+    gap: 2%;
+    cursor: pointer;
+    user-select: none;
+}
+.menu_opciones > li {
+    position: relative;
+    padding: 15px 25px;
+
+}
+.submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 17%; /* Justo debajo del padre */
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0 2px 5px rgba(2,5,77);
+}
+.desplegable:hover .submenu {
+    display: flex;
 }
 .Contenedor_del_nav{
     display: flex;
