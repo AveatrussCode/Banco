@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_cabsesera.css">
     <title>Título de la página</title>
+    <script src="scrip_sub_menu.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,44 +20,37 @@
             <a  href="index.html"><img  class="logo" src="imagenes/Santander_logo.png" ></a>
             <nav>
                 <ul class="menu_obciones">
-                    <li class="desplegable">
-                        Personas
-                        <div class="submenu">
-                            <p>Clientes</p>
-                            <p>Empleados</p>
-                            <p>Estudiantes</p>
-                        </div>
-                    </li>
-                    <li class="desplegable">
-                        Empresas
-                        <div class="submenu">
-                            <p>Clientes</p>
-                            <p>Empleados</p>
-                            <p>Estudiantes</p>
-                        </div>
-                    </li>
-                    <li class="desplegable" >
-                        Relación con inversionestas
-                        <div class="submenu">
-                            <p>Clientes</p>
-                            <p>Empleados</p>
-                            <p>Estudiantes</p>
-                    </li>
-                    <li class="desplegable" >
-                        Productos y Servicios
-                        <div class="submenu">
-                            <p>Clientes</p>
-                            <p>Empleados</p>
-                            <p>Estudiantes</p>
-                    </li>
-                    <li class="desplegable" >
-                        Acerca de Nosotros
-                        <div class="submenu">
-                            <p>Clientes</p>
-                            <p>Empleados</p>
-                            <p>Estudiantes</p>
-                    </li>
+                    <li class="desplegable" data-menu="personas"> Personas </li>
+                    <li class="desplegable" data-menu="empresas"> Empresas </li>
+                    <li class="desplegable" data-menu="relacion"> Relación con inversionestas </li>
+                    <li class="desplegable" data-menu="productos"> Productos y Servicios </li>
+                    <li class="desplegable" data-menu="acerca">  Acerca de Nosotros </li>
                 </ul>
+                <div class="submenu" data-menu="personas" >
+                            <p>Clientes</p>
+                            <p>Empleados</p>
+                            <p>Estudiantes</p>
+                </div>
+                <div class="submenu" data-menu="empresas">
+                            <p>Clientes</p>
+                            <p>Empleados</p>
+                            <p>Estudiantes</p>
+                </div>
+                <div class="submenu" data-menu="relacion">
+                            <p>Clientes</p>
+                            <p>Empleados</p>
+                            <p>Estudiantes</p>
+                </div>
+                <div class="submenu" data-menu="productos">
+                            <p>Clientes</p>
+                            <p>Empleados</p>
+                            <p>Estudiantes</p>
+                </div>
+                <div class="submenu" data-menu="acerca">
+                            <p>Clientes</p>
+                            <p>Empleados</p>
+                            <p>Estudiantes</p>
+                        </div>
             </nav>
             
         </div>

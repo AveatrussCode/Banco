@@ -20,23 +20,32 @@ header{
     gap: 2%;
     cursor: pointer;
     user-select: none;
+    height: 100%;
+    color: rgb(255, 255, 255);
 }
-.menu_opciones > li {
+.menu_obciones :hover{
+    background-color: rgb(199, 193, 193);
+    color: rgb(0, 0, 0);
+}
+.menu_obciones > li {
+    display: flex;
+    align-items: center;     
+    justify-content: center; 
     position: relative;
-    padding: 15px 25px;
-
+    padding: 0 25px;        
+    height: 100%;
 }
+
 .submenu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 17%; /* Justo debajo del padre */
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    display: none;
-    box-shadow: 0 2px 5px rgba(2,5,77);
+  position: fixed;
+  top: 105px; 
+  left: 0;
+  width: 100vw;
+  background-color: rgb(199, 193, 193);
+  display: none;
+  justify-content: space-around;
+  padding: 10px 0;
+  z-index: 1000;
 }
 .desplegable:hover .submenu {
     display: flex;
@@ -46,9 +55,9 @@ header{
     background-color: rgb(255,0,0 );
     width: 100%;
 }
-nav{
-    display: flex;
-}
 .desplegable{
-
+    display: flex;
+    height: 100%;    
+    text-align: center;
+    justify-content: center;
 }
