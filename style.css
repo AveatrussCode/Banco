@@ -86,3 +86,166 @@ header{
     border: 1px solid rgb(255, 255, 255);
     width: auto;
 }
+
+footer {
+    margin-top: 50px;
+    color: black;
+    justify-content: center; 
+}
+
+.footer-contenedor {
+    max-width: 1200px; 
+    width: 100%; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-around; 
+    padding: 0 20px; 
+}
+
+.footer-columna {
+    margin: 0 10px;
+    min-width: 150px;
+}
+
+.footer-columna h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.footer-columna ul {
+    list-style: none;
+}
+
+.footer-columna ul li {
+    margin-bottom: 8px;
+}
+
+.footer-columna ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.footer-columna ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-logos-seccion {
+    width: 100%; 
+    padding: 30px 0; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    box-sizing: border-box; 
+}
+
+.footer-logos-contenedor {
+    max-width: 1200px; 
+    width: 100%; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
+
+.logo-universia {
+    height: 55px; 
+}
+
+.logo-fogafin {
+    height: 60px; 
+}
+
+.footer-franja-roja {
+    width: 100%; 
+    padding: 30px 0; 
+    box-sizing: border-box;  
+}
+
+.footer-contactos {
+    background-color: rgb(255,0,0 ); 
+    max-width: 1200px;
+    width: 100%; 
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px 150px;
+    box-sizing: border-box;
+}
+
+.santander-logo {
+    margin-bottom: 10px; 
+}
+
+.santander-logo-imagen {
+    height: 65px; 
+}
+
+.contactanos {
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+}
+
+.contactanos-info {
+    text-align: left; 
+    margin-right: 20px; 
+}
+
+.contactanos-info h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+}
+.contactanos-info p {
+    margin: 5px 0;
+    font-size: 12px;
+    color: white;
+}
+
+.franja-roja-logo {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+.vigilado-logo {
+    height: 100px;
+    margin-right: 10px;
+}
+.franja-roja-logo p {
+    font-size: 10px;
+    color: white;
+}
+
+.footer-final {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer-final-texto {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 12px;
+    color: gray;
+    box-sizing: border-box;
+}
+
+.footer-final-texto p {
+    margin-bottom: 22px;
+}
+
+.footer-final-texto a {
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-final-texto a:hover {
+    text-decoration: underline;
+}
