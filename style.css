@@ -6,7 +6,9 @@
 header{
     margin: 0px;
 }
-
+.logo_santander{
+    padding-left: 5%;
+}
 .logo{
     width: 200px;
     height: auto;
@@ -38,7 +40,7 @@ header{
     height: 100%;
 }
 .linea{
-    font-size: 13.5px;
+    font-size: 13.8px;
     border-right: 1px solid rgb(255, 255, 255);
     height: 100%;
     padding-top: 3%;
@@ -46,7 +48,7 @@ header{
     padding-left: 2%;
 }
 .linea_final{
-    font-size: 13.5px;
+    font-size: 13.8px;
     height: 100%;
     padding-top: 3%;
     padding-right: 2%;
@@ -79,14 +81,28 @@ header{
     width: 70%;
     margin-left: 10vh;
     border-collapse: collapse;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: royalblue;
+    table-layout: fixed;
 }
 .tabla_menu td{
     border: 1px solid rgb(255, 255, 255);
     width: auto;
 }
+.negrita{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 13.8px;
+    padding-top: 5%;
+}
+.negrita:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
 
+
+
+
+/* File: footer.css */
 footer {
     margin-top: 50px;
     color: black;
