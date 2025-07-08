@@ -99,7 +99,83 @@ header{
     text-decoration: underline;
 }
 
+/*main*/
+.seccion-contenido {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 0 100px; 
+    font-family: Arial, sans-serif;
+}
 
+.home {
+    font-size: 16px; 
+    color: black;
+    margin-bottom: 10px; 
+}
+
+.home a {
+    color: black; 
+    text-decoration: none; 
+}
+
+.home a:hover {
+    text-decoration: underline; 
+}
+
+.home span {
+    color: gray; 
+}
+
+.linea-roja {
+    border-top: 5px solid #e30613;
+    margin: 20px 0; 
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-top: 30px; 
+    margin-bottom: 20px;
+}
+
+.subtitulo1{
+    color: rgb(73, 72, 72);
+}
+
+.subtitulo2{
+    color:red;
+}
+
+.parrafos p {
+    font-size: 16px;
+}
+
+.parrafos a {
+    color: red;
+    text-decoration: none;
+}
+
+.footer-info-section { 
+    width: 100%; 
+    max-width: 1200px;
+    padding: 20px 0; 
+}
+
+.vigilado-logo-container {
+    text-align: left;
+}
+
+.vigilado-logo {
+    width: 200px;
+    height: auto;
+}
+
+.footer-info-section p {
+    font-size: 12px; 
+    color: gray; 
+}
 
 
 /* File: footer.css */
