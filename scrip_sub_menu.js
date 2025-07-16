@@ -2,7 +2,7 @@ const items = document.querySelectorAll('.desplegable');
 const submenus = document.querySelectorAll('.submenu');
 
 items.forEach(item => {
-  const menuName = item.dataset.menu; // ej: "personas"
+  const menuName = item.dataset.menu;
 
   item.addEventListener('mouseenter', () => {
     submenus.forEach(sub => {
