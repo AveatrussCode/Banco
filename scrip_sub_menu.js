@@ -1,3 +1,5 @@
+//menu desplegable de el nav
+
 const items = document.querySelectorAll('.desplegable');
 const submenus = document.querySelectorAll('.submenu');
 
@@ -29,3 +31,4 @@ submenus.forEach(sub => {
     sub.style.display = 'none';
   });
 });
+//menu desplegable del Normativp
