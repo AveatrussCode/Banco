@@ -18,6 +18,51 @@ header{
     user-select: none;
 
 }
+.nav_Relaciones{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 13.8px;
+}
+.nav_productos_0{
+    margin-right: 10%;
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+
+}
+.nav_productos_0 .tabla_menu{
+    width: 100%;
+    margin-right: 10%;
+}
+.nav_productos_1{
+    margin-left: 0px;
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+
+}
+.nav_productos_1 .tabla_menu{
+    width: 100%;
+    margin-left: 0px;
+}
+.linea-gris{
+    border: none;
+    height: 2px;
+    background-color: #a0a0a0; 
+    margin: 5px 0; 
+    width: 80%;
+}
+.nav_texto_normal{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 13.8px;
+}
+.nav_texto_normal:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
 .menu_obciones{
     display: flex;
     width: auto;
@@ -47,7 +92,8 @@ header{
     padding-right: 2%;
     padding-left: 2%;
 }
-.linea_final{
+
+.linea_f{
     font-size: 13.8px;
     height: 100%;
     padding-top: 3%;
@@ -83,9 +129,9 @@ header{
     margin-left: 10vh;
     border-collapse: collapse;
     table-layout: fixed;
+    margin-bottom: 20px;
 }
 .tabla_menu td{
-    border: 1px solid rgb(255, 255, 255);
     width: auto;
 }
 .negrita{
