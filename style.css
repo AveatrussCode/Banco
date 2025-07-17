@@ -145,6 +145,63 @@ header{
     color: rgb(255, 0, 0);
     text-decoration: underline;
 }
+/*OKey Aui lo de para abajo de acordeon*/
+.acordeon {
+  border: 1px solid #ffffff;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.acordeon-header {
+  background: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  height: auto;
+}
+.acordeon-header:hover {
+    text-decoration: underline;
+}
+.acordeon-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    display: flex;
+    gap : 10px;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap; 
+    padding-top: 30px;
+}
+.acordeon.active .acordeon-content {
+  max-height: 500px; 
+  padding: 10px;
+}
+.Caja_normativo{
+    display: flex;
+    border: 1px solid rgb(165, 165, 165);
+    width: 300px;
+    border-radius: 5px;
+    height: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Imagen_pgf_pequeña{
+    width: 50px;
+    height: 60px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.letras_rojas{
+    padding-top: 5%;
+    color: rgb(255,0,0 );
+    text-decoration: none;
+    font-size: 18px;
+}
+.letras_rojas:hover{
+    color: rgb(0, 94, 216);
+}
+
+
 
 /*main*/
 .seccion-contenido {

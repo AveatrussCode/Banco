@@ -32,3 +32,9 @@ submenus.forEach(sub => {
   });
 });
 //menu desplegable del Normativp
+document.querySelectorAll('.acordeon-header').forEach(header => {
+  header.addEventListener('click', () => {
+    const parent = header.parentElement;
+    parent.classList.toggle('active');
+  });
+});
